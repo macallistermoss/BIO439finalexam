@@ -1,7 +1,6 @@
 def get_kmers(k, sequence):
     #extract substring of length k (kmer)
     kmer = sequence[0:k]
-    print("K-mer:", kmer)
   
     substring_counts = {}
   
@@ -52,7 +51,6 @@ def process_sequences(file_path, k):
 def get_kmers(k, sequence):
     #extract substring of length k (kmer)
     kmer = sequence[0:k]
-    print("K-mer:", kmer)
     
     #create dictionary for substrings
     substring_counts = {}
